@@ -1,7 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using TryOut.Flyweight.StraightCode;
 
-using TryOut.Flyweight.StraightCode;
-
-new Game();
+namespace TryOut
+{
+    public class Program
+    {
+        public static void Main()
+        {
+            new Game();
+        }
+    }
+}
 
 
