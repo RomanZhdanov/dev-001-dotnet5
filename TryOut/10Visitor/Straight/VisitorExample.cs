@@ -1,4 +1,7 @@
-﻿namespace TryOut.Visitor.Straight
+﻿using System;
+using System.Linq;
+
+namespace TryOut.Visitor.Straight
 {
     public class VisitorExample {
         public VisitorExample() {

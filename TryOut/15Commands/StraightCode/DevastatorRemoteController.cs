@@ -1,4 +1,7 @@
-﻿namespace TryOut.Commands.StraightCode {
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace TryOut.Commands.StraightCode {
     public class DevastatorRemoteController {
         private readonly Dictionary<Channel, Devastator> devastators;
 

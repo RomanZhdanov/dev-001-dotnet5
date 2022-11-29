@@ -1,4 +1,7 @@
-﻿namespace TryOut.Builder.Straight {
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace TryOut.Builder.Straight {
     public interface ICarPart {
         decimal Price { get; set; }
         decimal GetFullPrice();

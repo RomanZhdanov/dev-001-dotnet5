@@ -1,4 +1,7 @@
-﻿namespace TryOut.Composite.Straight {
+﻿using System;
+using System.Collections.Generic;
+
+namespace TryOut.Composite.Straight {
     public class CompositeExample {
         public CompositeExample() {
             var car = CreateCar();

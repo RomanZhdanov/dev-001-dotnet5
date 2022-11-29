@@ -1,4 +1,7 @@
-﻿namespace TryOut.Adapter.StraightCode {
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace TryOut.Adapter.StraightCode {
     public class CustomerRepo {
         private readonly DbAccessor dbAccessor;
         private readonly Table<Customer> table;

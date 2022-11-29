@@ -1,4 +1,6 @@
-﻿namespace TryOut.Builder.Straight {
+﻿using System;
+
+namespace TryOut.Builder.Straight {
     public class BuilderExample {
         public BuilderExample() {
             var car = CreateCar();

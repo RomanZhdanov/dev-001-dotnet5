@@ -1,4 +1,7 @@
-﻿namespace TryOut.Composite.Straight {
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace TryOut.Composite.Straight {
     public class Car {
         public Body Body { get; set; }
         public List<Wheel> Wheels { get; set; }

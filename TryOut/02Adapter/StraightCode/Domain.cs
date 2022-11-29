@@ -1,4 +1,6 @@
-﻿namespace TryOut.Adapter.StraightCode {
+﻿using System;
+
+namespace TryOut.Adapter.StraightCode {
     public class Customer {
         public Guid Id { get; set; }
         public string Name { get; set; }

@@ -1,4 +1,8 @@
-﻿namespace TryOut.Interpreter.StraightCode {
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace TryOut.Interpreter.StraightCode {
     public class Customer {
         public string Name { get; set; }
         public Importance Importance { get; set; }

@@ -1,4 +1,7 @@
-﻿namespace TryOut.Commands.StraightCode {
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace TryOut.Commands.StraightCode {
     public class TankRemoteController {
         private readonly Dictionary<Channel, Tank> tanks;
 

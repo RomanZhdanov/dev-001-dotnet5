@@ -1,4 +1,6 @@
-﻿namespace TryOut.Memento.StraightCode {
+﻿using System;
+
+namespace TryOut.Memento.StraightCode {
     public class Contact  {
         private Guid guid = Guid.NewGuid();
 

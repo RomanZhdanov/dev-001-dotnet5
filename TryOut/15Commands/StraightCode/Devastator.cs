@@ -1,4 +1,6 @@
-﻿namespace TryOut.Commands.StraightCode {
+﻿using System;
+
+namespace TryOut.Commands.StraightCode {
     public class Devastator : IMovement {
         public Channel Channel { get; private set; }
 

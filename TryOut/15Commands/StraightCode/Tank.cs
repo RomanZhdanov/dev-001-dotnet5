@@ -1,4 +1,6 @@
-﻿namespace TryOut.Commands.StraightCode {
+﻿using System;
+
+namespace TryOut.Commands.StraightCode {
     public class Tank : IMovement {
         public Channel Channel { get; private set; }
 

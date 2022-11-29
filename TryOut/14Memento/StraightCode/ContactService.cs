@@ -1,4 +1,7 @@
-﻿namespace TryOut.Memento.StraightCode {
+﻿using System;
+using System.Collections.Generic;
+
+namespace TryOut.Memento.StraightCode {
     public class ContactService {
         private List<Contact> contacts;
         private Dictionary<Guid, List<Contact>> editingContacts;

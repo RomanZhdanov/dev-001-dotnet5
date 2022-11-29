@@ -1,11 +1,14 @@
-﻿namespace TryOut.ChainOfResponsibility.StraightCode; 
+﻿using System;
+using System.Collections.Generic;
 
-public class Client {
-        public Client() {
-            var address = new Address("Poland, Wroclaw, Kowalska, 42");
-            var calc = new CalcDeliveryService().Calc(address);
+namespace TryOut.ChainOfResponsibility.StraightCode {
+
+    public class Client {
+            public Client() {
+                var address = new Address("Poland, Wroclaw, Kowalska, 42");
+                var calc = new CalcDeliveryService().Calc(address);
+            }
         }
-    }
 
     public class CalcDeliveryService {
         public List<Deliverer> Calc(Address address) {
@@ -90,3 +93,4 @@ public class Client {
 
         public string Country { get; set; }
     }
+}

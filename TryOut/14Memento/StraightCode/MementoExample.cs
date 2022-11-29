@@ -1,4 +1,6 @@
-﻿namespace TryOut.Memento.StraightCode {
+﻿using System;
+
+namespace TryOut.Memento.StraightCode {
     public class MementoExample {
         public MementoExample() {
             var contact = new Contact(Contact.Type.Private);
