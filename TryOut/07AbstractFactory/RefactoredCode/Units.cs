@@ -2,22 +2,10 @@
 using System.Drawing;
 
 namespace TryOut.AbstractFactory.RefactoredCode
-{
-
-    public enum RaceType
+{    
+    public interface IUnitPrototype
     {
-        Human,
-        Zerg,
-        Protos
-    }
-
-    public enum UnitType
-    {
-        Infantry,
-        Rangers,
-        LightVehicle,
-        Tank,
-        Helicopter
+        IUnitPrototype Clone();
     }
 
     public interface IInfantry
