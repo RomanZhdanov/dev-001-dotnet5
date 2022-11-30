@@ -1,4 +1,4 @@
-﻿using TryOut.Flyweight.StraightCode;
+﻿using TryOut.AbstractFactory.RefactoredCode;
 
 namespace TryOut
 {
